@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beshar Al Sheikh</title>
+    <!-- إضافة استيراد خط Hind Siliguri -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Hind Siliguri', sans-serif; /* استخدام الخط هنا */
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            scroll-behavior: smooth; /* تأثير التمرير السلس */
+        }
+
+        header {
+            background-color: #4a90e2;
+            color: white;
+            text-align: center;
+            padding: 60px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        nav {
+            background-color: #333;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 10px 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 30px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #4a90e2;
+            border-radius: 5px;
+        }
+
+        main {
+            padding: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        section {
+            padding: 40px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            transition: transform 0.3s;
+            text-align: center; /* اجعل النص في المنتصف */
+        }
+
+        section:hover {
+            transform: scale(1.01);
+        }
+
+        .profile-container {
+            display: flex;
+            justify-content: center; /* اجعل الصورة في المنتصف */
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .profile-pic {
+            width: 150px; /* ضبط عرض الصورة */
+            height: 150px; /* ضبط ارتفاع الصورة */
+            border-radius: 50%; /* جعل الصورة دائرية */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            color: #4a90e2;
+            margin-top: 0;
+        }
+
+        h3 {
+            color: #333;
+            margin-top: 15px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            padding: 15px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 15px;
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #007bff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #4a90e2;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        /* تصميم فواصل بين الأقسام */
+        .divider {
+            height: 2px;
+            background-color: #d4af37; /* لون ذهبي */
+            margin: 20px 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Beshar Al Sheikh</h1>
+        <p>Hoş geldiniz! Benim kişisel web siteme göz atıyorsunuz.</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">Hakkımda</a></li>
+            <li><a href="#skills">Becerilerim</a></li>
+            <li><a href="#projects">Projelerim</a></li>
+            <li><a href="#contact">İletişim</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="about" class="about">
+            <h2>Hakkımda</h2>
+            <div class="profile-container">
+                <img src="C:\Users\بشار الشيخ\Desktop\Downloads\WhatsApp Image 2024-08-27 at 5.22.41 PM.jpeg" alt="Beshar Al Sheikh" class="profile-pic">
+            </div>
+            <p>Ben 23 yaşındayım ve Türkiye'de yaşıyorum. Şu anda ığdır üniversitesi bilgisayar mühendisliği bölümünde üçüncü sınıf öğrencisiyim. Grafik tasarımcı olarak çalışıyorum ve aynı zamanda Kur'an-ı Kerim öğretmeniyim.</p>
+            <p>HTML, CSS, Java, ve Python gibi dillerde yetkinim ve bu alanlarda kendimi sürekli geliştirmeye çalışıyorum. Teknolojiyi takip ediyor ve yeni projeler üzerinde çalışmayı seviyorum.</p>
+        </section>
+        
+        <div class="divider"></div> <!-- فاصل بين الأقسام -->
+
+        <section id="skills" class="skills">
+            <h2>Becerilerim</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>Responsive Tasarım</li>
+                <li>Web Geliştirme</li>
+            </ul>
+        </section>
+        
+        <div class="divider"></div> <!-- فاصل بين الأقسام -->
+
+        <section id="projects" class="projects">
+            <h2>Projelerim</h2>
+            <article>
+                <h3>Web Sitesi Tasarımı</h3>
+                <p>HTML ve CSS kullanarak çeşitli web siteleri tasarladım. Bu projeler, kullanıcı dostu arayüzler oluşturmamı sağladı.</p>
+            </article>
+            <article>
+                <h3>JavaScript Uygulamaları</h3>
+                <p>JavaScript ile etkileşimli web uygulamaları geliştirdim. Bu uygulamalar, kullanıcıların deneyimini artırmak için çeşitli özellikler içeriyor.</p>
+            </article>
+        </section>
+        
+        <div class="divider"></div> <!-- فاصل بين الأقسام -->
+
+        <section id="contact" class="contact">
+            <h2>İletişim</h2>
+            <p>Bana ulaşmak için aşağıdaki formu doldurun:</p>
+            <form>
+                <label for="name">Adınız:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">E-posta:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mesajınız:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Gönder</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Beshar Al Sheikh. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
